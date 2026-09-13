@@ -1,5 +1,9 @@
 # AI-powered camera-trap wildlife monitoring pipeline
 
+**[View the results dashboard →](https://alexkapy.github.io/camera-trap-ai-pipeline/camera_trap_report.html)**
+
+**[Species reference sheet →](https://alexkapy.github.io/camera-trap-ai-pipeline/species_cheat_sheet.html)**
+
 A two-stage computer-vision + LLM pipeline for the manual review bottleneck in camera-trap conservation monitoring: **MegaDetector** filters blank frames and localises animals, then **Claude (Sonnet 5)** identifies the species from the cropped detection, the full frame, and the sibling frames in the same camera burst.
 
 Built and evaluated on a 200-image random sample from the [Wellington Camera Traps dataset](https://lila.science/datasets/wellingtoncameratraps) (LILA BC).
